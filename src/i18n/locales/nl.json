@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "MK Supply Group — Groothandel in sappen en drinkwater",
+    "description": "Groothandel in sappen en drinkwater voor winkels, supermarkten, horeca en exporteurs. Eén bestelling, één factuur, binnen 48 uur geleverd."
+  },
+  "language": {
+    "label": "Taal",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "menu": {
+    "open": "Menu openen",
+    "close": "Menu sluiten"
+  },
+  "nav": {
+    "products": "Producten",
+    "sectors": "Sectoren",
+    "how": "Werkwijze",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "cta": {
+    "quote": "Offerte aanvragen",
+    "priceList": "Prijslijst aanvragen",
+    "priceListLink": "Prijslijst aanvragen →",
+    "whatsapp": "WhatsApp ons"
+  },
+  "hero": {
+    "eyebrow": "GROOTHANDEL IN DRANKEN · IMPORT & EXPORT",
+    "title": [
+      "Op voorraad.",
+      "Verzonden.",
+      "Geregeld."
+    ],
+    "text": "Groothandel in sappen en drinkwater voor winkels, supermarkten, horeca en exporteurs. Eén bestelling, één factuur, binnen 48 uur geleverd.",
+    "textShort": "Groothandel in sappen en drinkwater voor winkels, horeca en exporteurs.",
+    "checks": [
+      "Pallets en gemengde dozen",
+      "Levering en export"
+    ]
+  },
+  "stats": [
+    {
+      "value": "48 u",
+      "label": "van bestelling tot levering"
+    },
+    {
+      "value": "2 landen",
+      "label": "waarheen we exporteren"
+    },
+    {
+      "value": "Pallet",
+      "label": "of gemengde dozen"
+    },
+    {
+      "value": "1 factuur",
+      "label": "per bestelling"
+    }
+  ],
+  "categories": {
+    "eyebrow": "ONS ASSORTIMENT",
+    "title": "Populaire categorieën",
+    "view": "Bekijk producten →",
+    "comingSoon": "BINNENKORT",
+    "juices": {
+      "title": "Sappen",
+      "subtitle": "3 producten · 250 ml tot 1 L"
+    },
+    "water": {
+      "title": "Water",
+      "subtitle": "5 formaten · 250 ml tot 5 L"
+    },
+    "softDrinks": {
+      "title": "Frisdranken",
+      "subtitle": "Binnenkort beschikbaar"
+    }
+  },
+  "products": {
+    "eyebrow": "CATEGORIE",
+    "pack": "Verpakking",
+    "pet": "PET-fles",
+    "origin": "Herkomst",
+    "originValue": "Bangladesh",
+    "barcode": "Barcode (EAN)",
+    "requestPrice": "Prijs aanvragen",
+    "juices": {
+      "title": "Sappen",
+      "description": "PRAN Mango Fruit Drink in PET-flessen, geproduceerd in Bangladesh. Verkrijgbaar in 250 ml, 500 ml en 1 L.",
+      "ask": "Vraag prijzen voor sappen aan →",
+      "name": "PRAN Mango Fruit Drink",
+      "category": "Dranken · Vruchtendrank"
+    },
+    "water": {
+      "title": "Water",
+      "description": "PRAN Drinkwater in PET-flessen, geproduceerd in Bangladesh. Vijf formaten, van 250 ml tot 5 L.",
+      "ask": "Vraag prijzen voor water aan →",
+      "name": "PRAN Drinkwater",
+      "category": "Dranken · Drinkwater"
+    }
+  },
+  "sectors": {
+    "eyebrow": "VOOR WIE",
+    "title": "Afgestemd op hoe u inkoopt",
+    "items": [
+      {
+        "title": "Winkels & supermarkten",
+        "text": "Houd uw schappen gevuld met snellopers. Gemengde dozen, vaste leveringen en duidelijke prijzen per stuk.",
+        "link": "Prijzen voor retail →",
+        "short": "Gemengde dozen, vaste leveringen, duidelijke prijzen."
+      },
+      {
+        "title": "Horeca",
+        "text": "Hotels, restaurants, cafés en cateraars: dranken in de formaten die u serveert, op een schema dat bij uw zaak past.",
+        "link": "Horeca-account →",
+        "short": "De formaten die u serveert, op uw schema."
+      },
+      {
+        "title": "Export & groothandels",
+        "text": "Volle pallets en containers voor export en doorverkoop, inclusief de benodigde papieren.",
+        "link": "Exportaanvragen →",
+        "short": "Volle pallets en containers, papieren geregeld."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "WERKWIJZE",
+    "title": "Bestellen in drie stappen",
+    "steps": [
+      {
+        "title": "Stuur uw lijst",
+        "text": "Laat ons weten welke producten en aantallen u nodig heeft — via het formulier, e-mail of WhatsApp."
+      },
+      {
+        "title": "Ontvang uw offerte",
+        "text": "We bevestigen voorraad, prijs en leverdatum in één duidelijke offerte."
+      },
+      {
+        "title": "Geleverd",
+        "text": "Uw bestelling komt binnen 48 uur aan, op pallet en gecontroleerd, met één duidelijke factuur."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "OVER ONS",
+    "title": "Een Nederlandse importeur van dranken",
+    "p1": "MK Supply Group is de handelsnaam van M.K. Holding B.V., gevestigd in Krommenie. Wij importeren, exporteren en leveren non-alcoholische dranken in de groothandel aan winkels, supermarkten, horeca en exporteurs.",
+    "p2": "We kopen in bij gevestigde producenten zoals PRAN, zodat u kunt rekenen op betrouwbare kwaliteit, een constante aanvoer en duidelijke prijzen.",
+    "facts": [
+      {
+        "label": "Bedrijf",
+        "value": "M.K. Holding B.V."
+      },
+      {
+        "label": "KvK-nummer",
+        "value": "94275882"
+      },
+      {
+        "label": "Vestiging",
+        "value": "Krommenie, Nederland"
+      },
+      {
+        "label": "Activiteiten",
+        "value": "Import · Export · Groothandel"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Word klant",
+    "text": "Open een zakelijk account en ontvang onze volledige prijslijst. Alleen voor zakelijke inkopers.",
+    "form": {
+      "company": "Bedrijfsnaam",
+      "kvk": "KvK- of btw-nummer",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "buyerType": "Ik koop in voor",
+      "buyerOptions": {
+        "retail": "Winkel / supermarkt",
+        "horeca": "Horeca",
+        "export": "Export / groothandel"
+      },
+      "message": "Bericht (optioneel)",
+      "consentBefore": "Ik ga ermee akkoord dat MK Supply Group mijn gegevens gebruikt om deze aanvraag te behandelen, zoals beschreven in het",
+      "consentLink": "privacybeleid",
+      "submit": "Zakelijk account aanvragen",
+      "sending": "Versturen…",
+      "success": "Bedankt! We hebben uw aanvraag ontvangen en nemen snel contact met u op.",
+      "error": "Er ging iets mis. Probeer het opnieuw of neem contact op via WhatsApp.",
+      "errors": {
+        "required": "Dit veld is verplicht",
+        "email": "Vul een geldig e-mailadres in",
+        "consent": "Ga akkoord om verder te gaan"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Groothandel in dranken voor retail, horeca en export.",
+    "products": "PRODUCTEN",
+    "company": "BEDRIJF",
+    "contact": "CONTACT",
+    "aboutUs": "Over ons",
+    "sectors": "Sectoren",
+    "contactLink": "Contact",
+    "legal": "© 2026 MK Supply Group, handelsnaam van M.K. Holding B.V. · KvK 94275882",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden",
+    "wholesale": "Alleen zakelijk"
+  }
+}

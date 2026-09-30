@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "MK Supply Group — Wholesale juices & drinking water",
+    "description": "Bulk supply of juices and drinking water for shops, supermarkets, horeca and export buyers. One order, one invoice, delivered within 48 hours."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "nl": "Nederlands"
+  },
+  "menu": {
+    "open": "Open menu",
+    "close": "Close menu"
+  },
+  "nav": {
+    "products": "Products",
+    "sectors": "Sectors",
+    "how": "How it works",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "quote": "Request a quote",
+    "priceList": "Request price list",
+    "priceListLink": "Request price list →",
+    "whatsapp": "WhatsApp us"
+  },
+  "hero": {
+    "eyebrow": "WHOLESALE DRINKS · IMPORT & EXPORT",
+    "title": [
+      "Stocked.",
+      "Shipped.",
+      "Sorted."
+    ],
+    "text": "Bulk supply of juices and drinking water for shops, supermarkets, horeca and export buyers. One order, one invoice, delivered within 48 hours.",
+    "textShort": "Bulk supply of juices and drinking water for shops, horeca and export buyers.",
+    "checks": [
+      "Pallet & mixed-case orders",
+      "Delivery & export"
+    ]
+  },
+  "stats": [
+    {
+      "value": "48 h",
+      "label": "from order to delivery"
+    },
+    {
+      "value": "2 countries",
+      "label": "we export to"
+    },
+    {
+      "value": "Pallet",
+      "label": "or mixed-case orders"
+    },
+    {
+      "value": "1 invoice",
+      "label": "per order"
+    }
+  ],
+  "categories": {
+    "eyebrow": "OUR RANGE",
+    "title": "Popular categories",
+    "view": "View products →",
+    "comingSoon": "COMING SOON",
+    "juices": {
+      "title": "Juices",
+      "subtitle": "3 products · 250 ml to 1 L"
+    },
+    "water": {
+      "title": "Water",
+      "subtitle": "5 sizes · 250 ml to 5 L"
+    },
+    "softDrinks": {
+      "title": "Soft drinks",
+      "subtitle": "Will be added soon"
+    }
+  },
+  "products": {
+    "eyebrow": "CATEGORY",
+    "pack": "Pack",
+    "pet": "PET bottle",
+    "origin": "Origin",
+    "originValue": "Bangladesh",
+    "barcode": "Barcode (EAN)",
+    "requestPrice": "Request price",
+    "juices": {
+      "title": "Juices",
+      "description": "PRAN Mango Fruit Drink in PET bottles, made in Bangladesh. Available in 250 ml, 500 ml and 1 L.",
+      "ask": "Ask for juice pricing →",
+      "name": "PRAN Mango Fruit Drink",
+      "category": "Beverages · Fruit drink"
+    },
+    "water": {
+      "title": "Water",
+      "description": "PRAN Drinking Water in PET bottles, made in Bangladesh. Five sizes, from 250 ml to 5 L.",
+      "ask": "Ask for water pricing →",
+      "name": "PRAN Drinking Water",
+      "category": "Beverages · Drinking water"
+    }
+  },
+  "sectors": {
+    "eyebrow": "WHO WE SUPPLY",
+    "title": "Built for the way you buy",
+    "items": [
+      {
+        "title": "Shops & supermarkets",
+        "text": "Keep shelves full with fast-moving drinks. Mixed cases, regular deliveries and clear per-unit pricing.",
+        "link": "Retail pricing →",
+        "short": "Mixed cases, regular deliveries, clear pricing."
+      },
+      {
+        "title": "Horeca",
+        "text": "Hotels, restaurants, cafés and caterers: drinks in the formats you serve, on a schedule that suits your business.",
+        "link": "Horeca accounts →",
+        "short": "Formats you serve, on your schedule."
+      },
+      {
+        "title": "Export & wholesalers",
+        "text": "Full pallets and containers for export and resale, with the paperwork handled.",
+        "link": "Export enquiries →",
+        "short": "Full pallets and containers, paperwork handled."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "HOW IT WORKS",
+    "title": "Order in three steps",
+    "steps": [
+      {
+        "title": "Send your list",
+        "text": "Tell us the products and quantities you need — by form, email or WhatsApp."
+      },
+      {
+        "title": "Get your quote",
+        "text": "We confirm stock, price and delivery date in one clear quote."
+      },
+      {
+        "title": "Delivered",
+        "text": "Your order arrives within 48 hours, palletised and checked, with one clear invoice."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "title": "A Dutch importer of drinks",
+    "p1": "MK Supply Group is the trade name of M.K. Holding B.V., based in Krommenie, the Netherlands. We import, export and wholesale non-alcoholic drinks for shops, supermarkets, horeca and export buyers.",
+    "p2": "We source from established producers such as PRAN, so you can count on reliable quality, steady supply and clear pricing.",
+    "facts": [
+      {
+        "label": "Company",
+        "value": "M.K. Holding B.V."
+      },
+      {
+        "label": "KvK number",
+        "value": "94275882"
+      },
+      {
+        "label": "Location",
+        "value": "Krommenie, Netherlands"
+      },
+      {
+        "label": "Activities",
+        "value": "Import · Export · Wholesale"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Become a customer",
+    "text": "Open a trade account and get our full price list. Wholesale buyers only.",
+    "form": {
+      "company": "Company name",
+      "kvk": "KvK or VAT number",
+      "email": "Email",
+      "phone": "Phone",
+      "buyerType": "I buy for",
+      "buyerOptions": {
+        "retail": "Shop / supermarket",
+        "horeca": "Horeca",
+        "export": "Export / wholesale"
+      },
+      "message": "Message (optional)",
+      "consentBefore": "I agree that MK Supply Group uses my details to handle this request, as described in the",
+      "consentLink": "privacy policy",
+      "submit": "Request trade account",
+      "sending": "Sending…",
+      "success": "Thank you! We have received your request and will contact you soon.",
+      "error": "Something went wrong. Please try again or contact us via WhatsApp.",
+      "errors": {
+        "required": "This field is required",
+        "email": "Enter a valid email address",
+        "consent": "Please agree to continue"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Wholesale drinks for retail, horeca and export.",
+    "products": "PRODUCTS",
+    "company": "COMPANY",
+    "contact": "CONTACT",
+    "aboutUs": "About us",
+    "sectors": "Sectors",
+    "contactLink": "Contact",
+    "legal": "© 2026 MK Supply Group, a trade name of M.K. Holding B.V. · KvK 94275882",
+    "privacy": "Privacy policy",
+    "terms": "Terms",
+    "wholesale": "Wholesale only"
+  }
+}

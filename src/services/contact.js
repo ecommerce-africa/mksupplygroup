@@ -1,16 +1,36 @@
-// Sends the "Become a customer" form.
-// For now this only simulates a request. When the backend is ready:
-//   1. npm i axios react-hot-toast
-//   2. Replace the body below with:
-//        import axios from 'axios';
-//        const api = axios.create({ baseURL: import.meta.env.VITE_API_URL });
-//        return api.post('/contact', data);
+// Sends the "Become a customer" form to Netlify Forms.
+// Netlify stores the submission and emails it to the addresses set under
+// Site configuration → Forms → Form notifications.
+
+const FORM_NAME = 'contact';
+
+function encode(data) {
+  return new URLSearchParams(data).toString();
+}
+
 export async function submitContactRequest(data) {
-  await new Promise((resolve) => {
-    setTimeout(resolve, 800);
+  const payload = {
+    'form-name': FORM_NAME,
+    'bot-field': '',
+    company: data.company,
+    kvk: data.kvk,
+    email: data.email,
+    phone: data.phone,
+    buyerType: data.buyerType,
+    message: data.message,
+    consent: String(data.consent),
+    language: data.language,
+  };
+
+  const response = await fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encode(payload),
   });
-  if (import.meta.env.DEV) {
-    console.info('[contact] request', data);
+
+  if (!response.ok) {
+    throw new Error(`Form submit failed with status ${response.status}`);
   }
+
   return { ok: true };
 }

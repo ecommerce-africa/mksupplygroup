@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- Netlify reads this file at deploy time to register the "contact" form.
+         The React form posts to /__forms.html. Keep field names in sync with src/services/contact.js -->
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="bot-field" />
+      <input type="text" name="company" />
+      <input type="text" name="kvk" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="buyerType" />
+      <textarea name="message"></textarea>
+      <input type="text" name="consent" />
+      <input type="text" name="language" />
+    </form>
+  </body>
+</html>

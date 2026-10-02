@@ -4,6 +4,9 @@
 
 const FORM_NAME = 'contact';
 
+// Post to a real static file, so the SPA rewrite in public/_redirects can't swallow the request
+const FORM_ENDPOINT = '/__forms.html';
+
 function encode(data) {
   return new URLSearchParams(data).toString();
 }
@@ -22,7 +25,7 @@ export async function submitContactRequest(data) {
     language: data.language,
   };
 
-  const response = await fetch('/', {
+  const response = await fetch(FORM_ENDPOINT, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: encode(payload),

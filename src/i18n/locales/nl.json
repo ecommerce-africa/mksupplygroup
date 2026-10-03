@@ -27,35 +27,16 @@
   },
   "hero": {
     "eyebrow": "GROOTHANDEL IN DRANKEN · IMPORT & EXPORT",
-    "title": [
-      "Op voorraad.",
-      "Verzonden.",
-      "Geregeld."
-    ],
+    "title": ["Op voorraad.", "Verzonden.", "Geregeld."],
     "text": "Groothandel in sappen en drinkwater voor winkels, supermarkten, horeca en exporteurs. Eén bestelling, één factuur, binnen 48 uur geleverd.",
     "textShort": "Groothandel in sappen en drinkwater voor winkels, horeca en exporteurs.",
-    "checks": [
-      "Pallets en gemengde dozen",
-      "Levering en export"
-    ]
+    "checks": ["Pallets en gemengde dozen", "Levering en export"]
   },
   "stats": [
-    {
-      "value": "48 u",
-      "label": "van bestelling tot levering"
-    },
-    {
-      "value": "2 landen",
-      "label": "waarheen we exporteren"
-    },
-    {
-      "value": "Pallet",
-      "label": "of gemengde dozen"
-    },
-    {
-      "value": "1 factuur",
-      "label": "per bestelling"
-    }
+    { "value": "48 u", "label": "van bestelling tot levering" },
+    { "value": "2 landen", "label": "waarheen we exporteren" },
+    { "value": "Pallet", "label": "of gemengde dozen" },
+    { "value": "1 factuur", "label": "per bestelling" }
   ],
   "categories": {
     "eyebrow": "ONS ASSORTIMENT",
@@ -70,6 +51,10 @@
       "title": "Water",
       "subtitle": "5 formaten · 250 ml tot 5 L"
     },
+    "specialty": {
+      "title": "Speciale dranken",
+      "subtitle": "5 producten · 250 ml en 500 ml"
+    },
     "softDrinks": {
       "title": "Frisdranken",
       "subtitle": "Binnenkort beschikbaar"
@@ -82,6 +67,7 @@
     "origin": "Herkomst",
     "originValue": "Bangladesh",
     "barcode": "Barcode (EAN)",
+    "contains": "Bevat",
     "requestPrice": "Prijs aanvragen",
     "juices": {
       "title": "Sappen",
@@ -96,6 +82,24 @@
       "ask": "Vraag prijzen voor water aan →",
       "name": "PRAN Drinkwater",
       "category": "Dranken · Drinkwater"
+    },
+    "specialty": {
+      "title": "Speciale dranken",
+      "description": "Drinko Float: vruchtendranken met stukjes nata de coco-jelly, in aardbei, mango, lychee en ananas. Plus PRAN Aloe Vera Drink met 20% aloë vera.",
+      "ask": "Vraag prijzen voor speciale dranken aan →",
+      "name": "Speciale drank",
+      "category": "Dranken · Speciale drank",
+      "items": {
+        "drinkoStrawberry": "Drinko Float Aardbei",
+        "drinkoMango": "Drinko Float Mango",
+        "drinkoLitchi": "Drinko Float Lychee",
+        "drinkoPineapple": "Drinko Float Ananas",
+        "aloeVera": "PRAN Aloe Vera Drink"
+      },
+      "features": {
+        "nataDeCoco": "Nata de coco-jelly",
+        "aloeVera": "20% aloë vera"
+      }
     }
   },
   "sectors": {
@@ -146,22 +150,10 @@
     "p1": "MK Supply Group is de handelsnaam van M.K. Holding B.V., gevestigd in Krommenie. Wij importeren, exporteren en leveren non-alcoholische dranken in de groothandel aan winkels, supermarkten, horeca en exporteurs.",
     "p2": "We kopen in bij gevestigde producenten zoals PRAN, zodat u kunt rekenen op betrouwbare kwaliteit, een constante aanvoer en duidelijke prijzen.",
     "facts": [
-      {
-        "label": "Bedrijf",
-        "value": "M.K. Holding B.V."
-      },
-      {
-        "label": "KvK-nummer",
-        "value": "94275882"
-      },
-      {
-        "label": "Vestiging",
-        "value": "Krommenie, Nederland"
-      },
-      {
-        "label": "Activiteiten",
-        "value": "Import · Export · Groothandel"
-      }
+      { "label": "Bedrijf", "value": "M.K. Holding B.V." },
+      { "label": "KvK-nummer", "value": "94275882" },
+      { "label": "Vestiging", "value": "Krommenie, Nederland" },
+      { "label": "Activiteiten", "value": "Import · Export · Groothandel" }
     ]
   },
   "contact": {

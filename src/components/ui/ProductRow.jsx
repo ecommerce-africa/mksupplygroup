@@ -5,9 +5,20 @@ import Typography from '@mui/material/Typography';
 import SizeBadge from './SizeBadge';
 
 // Mobile product row: thumbnail left, details right, whole row links to the form
-export default function ProductRow({ name, size, ean, image, wellColor }) {
+export default function ProductRow({ name, size, ean = '', feature = '', image, wellColor }) {
   const { t } = useTranslation();
   const fullName = `${name} ${size}`;
+
+  // "PET bottle · Nata de coco jelly" or "PET bottle · EAN 123…"
+  function detailLine() {
+    if (feature) {
+      return `${t('products.pet')} · ${feature}`;
+    }
+    if (ean) {
+      return `${t('products.pet')} · EAN ${ean}`;
+    }
+    return t('products.pet');
+  }
 
   return (
     <Box
@@ -32,9 +43,7 @@ export default function ProductRow({ name, size, ean, image, wellColor }) {
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5, minWidth: 0 }}>
         <Box><SizeBadge size={size} small /></Box>
         <Typography variant="h3" sx={{ fontSize: 16, lineHeight: '22px' }}>{fullName}</Typography>
-        <Typography sx={{ fontSize: 12, lineHeight: '16px', color: 'text.secondary' }}>
-          {t('products.pet')} · EAN {ean}
-        </Typography>
+        <Typography sx={{ fontSize: 12, lineHeight: '16px', color: 'text.secondary' }}>{detailLine()}</Typography>
         <Typography component="span" sx={{ fontSize: 14, fontWeight: 600, color: 'brand.green600', mt: 'auto' }}>
           {t('products.requestPrice')} →
         </Typography>
@@ -46,7 +55,8 @@ export default function ProductRow({ name, size, ean, image, wellColor }) {
 ProductRow.propTypes = {
   name: PropTypes.string.isRequired,
   size: PropTypes.string.isRequired,
-  ean: PropTypes.string.isRequired,
+  ean: PropTypes.string,
+  feature: PropTypes.string,
   image: PropTypes.string.isRequired,
   wellColor: PropTypes.string.isRequired,
 };

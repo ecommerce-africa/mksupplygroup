@@ -27,35 +27,16 @@
   },
   "hero": {
     "eyebrow": "WHOLESALE DRINKS · IMPORT & EXPORT",
-    "title": [
-      "Stocked.",
-      "Shipped.",
-      "Sorted."
-    ],
+    "title": ["Stocked.", "Shipped.", "Sorted."],
     "text": "Bulk supply of juices and drinking water for shops, supermarkets, horeca and export buyers. One order, one invoice, delivered within 48 hours.",
     "textShort": "Bulk supply of juices and drinking water for shops, horeca and export buyers.",
-    "checks": [
-      "Pallet & mixed-case orders",
-      "Delivery & export"
-    ]
+    "checks": ["Pallet & mixed-case orders", "Delivery & export"]
   },
   "stats": [
-    {
-      "value": "48 h",
-      "label": "from order to delivery"
-    },
-    {
-      "value": "2 countries",
-      "label": "we export to"
-    },
-    {
-      "value": "Pallet",
-      "label": "or mixed-case orders"
-    },
-    {
-      "value": "1 invoice",
-      "label": "per order"
-    }
+    { "value": "48 h", "label": "from order to delivery" },
+    { "value": "2 countries", "label": "we export to" },
+    { "value": "Pallet", "label": "or mixed-case orders" },
+    { "value": "1 invoice", "label": "per order" }
   ],
   "categories": {
     "eyebrow": "OUR RANGE",
@@ -70,6 +51,10 @@
       "title": "Water",
       "subtitle": "5 sizes · 250 ml to 5 L"
     },
+    "specialty": {
+      "title": "Specialty drinks",
+      "subtitle": "5 products · 250 ml and 500 ml"
+    },
     "softDrinks": {
       "title": "Soft drinks",
       "subtitle": "Will be added soon"
@@ -82,6 +67,7 @@
     "origin": "Origin",
     "originValue": "Bangladesh",
     "barcode": "Barcode (EAN)",
+    "contains": "Contains",
     "requestPrice": "Request price",
     "juices": {
       "title": "Juices",
@@ -96,6 +82,24 @@
       "ask": "Ask for water pricing →",
       "name": "PRAN Drinking Water",
       "category": "Beverages · Drinking water"
+    },
+    "specialty": {
+      "title": "Specialty drinks",
+      "description": "Drinko Float: fruit-flavoured drinks with bites of nata de coco jelly, in strawberry, mango, litchi and pineapple. Plus PRAN Aloe Vera Drink with 20% aloe vera.",
+      "ask": "Ask for specialty drink pricing →",
+      "name": "Specialty drink",
+      "category": "Beverages · Specialty drink",
+      "items": {
+        "drinkoStrawberry": "Drinko Float Strawberry",
+        "drinkoMango": "Drinko Float Mango",
+        "drinkoLitchi": "Drinko Float Litchi",
+        "drinkoPineapple": "Drinko Float Pineapple",
+        "aloeVera": "PRAN Aloe Vera Drink"
+      },
+      "features": {
+        "nataDeCoco": "Nata de coco jelly",
+        "aloeVera": "20% aloe vera"
+      }
     }
   },
   "sectors": {
@@ -146,22 +150,10 @@
     "p1": "MK Supply Group is the trade name of M.K. Holding B.V., based in Krommenie, the Netherlands. We import, export and wholesale non-alcoholic drinks for shops, supermarkets, horeca and export buyers.",
     "p2": "We source from established producers such as PRAN, so you can count on reliable quality, steady supply and clear pricing.",
     "facts": [
-      {
-        "label": "Company",
-        "value": "M.K. Holding B.V."
-      },
-      {
-        "label": "KvK number",
-        "value": "94275882"
-      },
-      {
-        "label": "Location",
-        "value": "Krommenie, Netherlands"
-      },
-      {
-        "label": "Activities",
-        "value": "Import · Export · Wholesale"
-      }
+      { "label": "Company", "value": "M.K. Holding B.V." },
+      { "label": "KvK number", "value": "94275882" },
+      { "label": "Location", "value": "Krommenie, Netherlands" },
+      { "label": "Activities", "value": "Import · Export · Wholesale" }
     ]
   },
   "contact": {

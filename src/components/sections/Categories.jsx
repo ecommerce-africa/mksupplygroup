@@ -14,7 +14,7 @@ export default function Categories() {
     <Section id="products">
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: { xs: 3, md: 5 } }}>
         <SectionHeader eyebrow={t('categories.eyebrow')} title={t('categories.title')} action={priceListLink} />
-        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(3, minmax(0, 1fr))' }, gap: { xs: 2, md: 3 } }}>
+        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', sm: 'repeat(2, minmax(0, 1fr))', lg: 'repeat(4, minmax(0, 1fr))' }, gap: { xs: 2, md: 2.5 } }}>
           {categories.map((category) => (
             <CategoryCard
               key={category.id}

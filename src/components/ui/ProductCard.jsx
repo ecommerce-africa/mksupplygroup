@@ -20,9 +20,20 @@ Spec.propTypes = {
 };
 
 // Desktop product card: image well, size badge, specs and "Request price"
-export default function ProductCard({ name, category, size, ean, image, wellColor }) {
+export default function ProductCard({ name, category, size, ean = '', feature = '', image, wellColor }) {
   const { t } = useTranslation();
   const fullName = `${name} ${size}`;
+
+  // Third spec: "Contains …" when the product has a feature, otherwise the barcode
+  function renderThirdSpec() {
+    if (feature) {
+      return <Spec label={t('products.contains')} value={feature} />;
+    }
+    if (ean) {
+      return <Spec label={t('products.barcode')} value={ean} />;
+    }
+    return null;
+  }
 
   return (
     <Box
@@ -43,7 +54,7 @@ export default function ProductCard({ name, category, size, ean, image, wellColo
         <Box component="dl" sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 1fr))', gap: '8px 16px' }}>
           <Spec label={t('products.pack')} value={t('products.pet')} />
           <Spec label={t('products.origin')} value={t('products.originValue')} />
-          <Spec label={t('products.barcode')} value={ean} />
+          {renderThirdSpec()}
         </Box>
         <Button href="#contact" variant="contained" color="primary" fullWidth sx={{ mt: 'auto' }}>
           {t('products.requestPrice')}
@@ -57,7 +68,8 @@ ProductCard.propTypes = {
   name: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   size: PropTypes.string.isRequired,
-  ean: PropTypes.string.isRequired,
+  ean: PropTypes.string,
+  feature: PropTypes.string,
   image: PropTypes.string.isRequired,
   wellColor: PropTypes.string.isRequired,
 };

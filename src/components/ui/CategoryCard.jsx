@@ -68,7 +68,7 @@ function ComingSoonCard({ title, subtitle, image, watermark }) {
             justifyContent: 'center',
             fontFamily: fonts.display,
             fontWeight: 800,
-            fontSize: { xs: 30, md: 40 },
+            fontSize: { xs: 28, sm: 24, lg: 28 },
             letterSpacing: '0.12em',
             color: 'text.primary',
             opacity: 0.5,

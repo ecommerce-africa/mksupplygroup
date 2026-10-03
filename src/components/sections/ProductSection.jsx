@@ -8,12 +8,27 @@ import ProductRow from '../ui/ProductRow';
 import TextLink from '../ui/TextLink';
 import useIsDesktop from '../../hooks/useIsDesktop';
 
-// One product line (e.g. juices or water): cards on desktop, compact rows on mobile
+// One product line (e.g. juices, water, specialty): cards on desktop, compact rows on mobile
 export default function ProductSection({ line }) {
   const { t } = useTranslation();
   const isDesktop = useIsDesktop();
   const key = `products.${line.id}`;
-  const name = t(`${key}.name`);
+
+  // Items can have their own name (e.g. a flavour); otherwise the line name is used
+  function itemName(item) {
+    if (item.nameKey) {
+      return t(`${key}.items.${item.nameKey}`);
+    }
+    return t(`${key}.name`);
+  }
+
+  // Optional "Contains: …" detail, shown instead of the barcode
+  function itemFeature(item) {
+    if (item.featureKey) {
+      return t(`${key}.features.${item.featureKey}`);
+    }
+    return '';
+  }
 
   function renderItems() {
     if (isDesktop) {
@@ -22,10 +37,11 @@ export default function ProductSection({ line }) {
           {line.items.map((item) => (
             <ProductCard
               key={item.id}
-              name={name}
+              name={itemName(item)}
               category={t(`${key}.category`)}
               size={item.size}
               ean={item.ean}
+              feature={itemFeature(item)}
               image={item.image}
               wellColor={line.wellColor}
             />
@@ -36,7 +52,15 @@ export default function ProductSection({ line }) {
     return (
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
         {line.items.map((item) => (
-          <ProductRow key={item.id} name={name} size={item.size} ean={item.ean} image={item.image} wellColor={line.wellColor} />
+          <ProductRow
+            key={item.id}
+            name={itemName(item)}
+            size={item.size}
+            ean={item.ean}
+            feature={itemFeature(item)}
+            image={item.image}
+            wellColor={line.wellColor}
+          />
         ))}
       </Box>
     );
@@ -65,8 +89,10 @@ ProductSection.propTypes = {
       PropTypes.shape({
         id: PropTypes.string.isRequired,
         size: PropTypes.string.isRequired,
-        ean: PropTypes.string.isRequired,
+        ean: PropTypes.string,
         image: PropTypes.string.isRequired,
+        nameKey: PropTypes.string,
+        featureKey: PropTypes.string,
       })
     ).isRequired,
   }).isRequired,

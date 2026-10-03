@@ -1,5 +1,5 @@
-import categoryJuices from '../assets/images/category-juices.jpg';
-import categoryWater from '../assets/images/category-water.jpg';
+import categoryJuices from '../assets/images/category-juices.png';
+import categoryWater from '../assets/images/category-water.png';
 import categorySpecialty from '../assets/images/category-specialty-drinks.png';
 import categorySoftDrinks from '../assets/images/category-soft-drinks.svg';
 import mango250 from '../assets/images/pran-mango-250ml.webp';
